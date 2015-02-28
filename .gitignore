@@ -14,3 +14,7 @@
 # Metadata
 *.aliases
 *.lvlps
+*.db
+
+#Built VI Packages
+*.vip
