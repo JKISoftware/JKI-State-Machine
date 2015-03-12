@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2008-10-06 00:23:25" Modified_Date="2015-02-27 16:09:46" Creator="Michael Aivaliotis" Comments="" ID="a872765ca5613dbe96fb5259b9f0b073">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2008-10-06 00:23:25" Modified_Date="2015-03-12 10:25:09" Creator="Michael Aivaliotis" Comments="" ID="ac6523f667d442489da0cb7255dc9fcc">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2013.0.0.2</Library_Version>
+    <Library_Version>2013.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -31,7 +31,7 @@
     <Description>
       <One_Line_Description_Summary>JKI State Machine</One_Line_Description_Summary>
       <Description>The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts. We encourage you to post any questions or comments to the JKI Software Forums. There you will find an active community of JKI software users, as well as JKI team members.</Description>
-      <Copyright>Copyright (C) 2005-2014, JKI</Copyright>
+      <Copyright>Copyright (C) 2005-2015, JKI</Copyright>
       <Packager>JKI</Packager>
       <URL>http://jki.net/state-machine/</URL>
       <Release_Notes/>
@@ -222,7 +222,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>2228E5CB0FEE124E230F4B036426A109</GUID>
+      <GUID>733DC68869C4ABB324810EF1596A5DFC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -285,7 +285,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Build State String with Arguments.vi</Path>
         <VI_Title>Build State String with Arguments.vi</VI_Title>
       </Items_Data>
-      <GUID>8348EB675139B4C02C33EA540B8D9F16</GUID>
+      <GUID>C448C49CCE5E485FCAC01069963AD82D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
