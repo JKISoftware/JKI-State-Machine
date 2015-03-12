@@ -18,3 +18,4 @@
 
 #Built VI Packages
 *.vip
+.DS_Store
