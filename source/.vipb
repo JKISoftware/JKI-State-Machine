@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2008-10-06 00:23:25" Modified_Date="2015-03-24 10:29:05" Creator="Michael Aivaliotis" Comments="" ID="c3f993d0ca0ee14124347c5945bc74d2">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2008-10-06 00:23:25" Modified_Date="2015-03-24 15:21:29" Creator="Michael Aivaliotis" Comments="" ID="caf8366a4e075dd3abaaca6e0ea462d9">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>3.0.0.5</Library_Version>
+    <Library_Version>3.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -34,7 +34,9 @@
       <Copyright>Copyright (C) 2005-2015, JKI</Copyright>
       <Packager>JKI</Packager>
       <URL>http://jki.net/state-machine/</URL>
-      <Release_Notes/>
+      <Release_Notes>- Built in LabVIEW 2013
+- Added "Event Structure" to the "Idle?" ("") Case Structure frame
+- Cleaned up floating labels used for documentation</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -223,7 +225,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>F6B3DD1A0D995AFB4343FDB1B8279B77</GUID>
+      <GUID>60348DB25E714A0AE9BFC2A55E4ACEAC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -286,7 +288,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Build State String with Arguments.vi</Path>
         <VI_Title>Build State String with Arguments.vi</VI_Title>
       </Items_Data>
-      <GUID>B788DABB92051A1DE5009463D9B92CDF</GUID>
+      <GUID>456AE8CC405827C8B09F8DB853A52CEB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
