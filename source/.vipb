@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2008-10-06 00:23:25" Modified_Date="2015-03-24 15:21:29" Creator="Michael Aivaliotis" Comments="" ID="caf8366a4e075dd3abaaca6e0ea462d9">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2008-10-06 00:23:25" Modified_Date="2015-03-26 15:24:26" Creator="Michael Aivaliotis" Comments="" ID="96acf8abfb81dc8fcaed605f4ae1f9a1">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>3.0.0.6</Library_Version>
+    <Library_Version>3.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -201,7 +201,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>JKI State Machine</NameSub_Menu_Name>
-        <Short_Name>String-Based Queued State Machine (Basic 1.0)</Short_Name>
+        <Short_Name>JKI State Machine</Short_Name>
         <is_Merge_VI>true</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -209,7 +209,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         </Position>
         <Icon>00000000</Icon>
         <Path>State Machine Templates\String-Based Queued State Machine (Basic 1.0).vi</Path>
-        <VI_Title>String-Based Queued State Machine (Basic 1.0).vi</VI_Title>
+        <VI_Title>JKI State Machine</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Sub Palette</Type>
@@ -225,7 +225,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>60348DB25E714A0AE9BFC2A55E4ACEAC</GUID>
+      <GUID>91062671ADB4FBEE06AF955734DAB9F0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -250,7 +250,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Parse State Queue</NameSub_Menu_Name>
-        <Short_Name>Parse State Queue</Short_Name>
+        <Short_Name>Parse State Queue (JKI SM)</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -258,13 +258,13 @@ ALL RIGHTS RESERVED</Text_to_Add>
         </Position>
         <Icon>00000000</Icon>
         <Path>State Machine Support API\Parse State Queue.vi</Path>
-        <VI_Title>Parse State Queue.vi</VI_Title>
+        <VI_Title>Parse State Queue (JKI SM)</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Add State(s) to Queue</NameSub_Menu_Name>
-        <Short_Name>Add State(s) to Queue</Short_Name>
+        <Short_Name>Add State(s) to Queue (JKI SM)</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -272,13 +272,13 @@ ALL RIGHTS RESERVED</Text_to_Add>
         </Position>
         <Icon>00000000</Icon>
         <Path>State Machine Support API\Add State(s) to Queue.vi</Path>
-        <VI_Title>Add State(s) to Queue.vi</VI_Title>
+        <VI_Title>Add State(s) to Queue (JKI SM)</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Build State String with Arguments</NameSub_Menu_Name>
-        <Short_Name>Build State String with Arguments</Short_Name>
+        <Short_Name>Build State String with Arguments (JKI SM)</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -286,9 +286,9 @@ ALL RIGHTS RESERVED</Text_to_Add>
         </Position>
         <Icon>00000000</Icon>
         <Path>State Machine Support API\Build State String with Arguments.vi</Path>
-        <VI_Title>Build State String with Arguments.vi</VI_Title>
+        <VI_Title>Build State String with Arguments (JKI SM)</VI_Title>
       </Items_Data>
-      <GUID>456AE8CC405827C8B09F8DB853A52CEB</GUID>
+      <GUID>22930BDE4AEA80BEE8304B9E4D34CFD6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
