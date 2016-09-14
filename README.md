@@ -2,6 +2,8 @@
 The easiest way to create powerful, maintainable VIs in LabVIEW™
 The JKI State Machine™ for LabVIEW™ is an easy-to-use yet powerful state machine template. It is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW™ experts.
 
+![JKI State Machine](https://cloud.githubusercontent.com/assets/381432/18533372/40d78f54-7a97-11e6-9455-0c55d923c06f.png)
+
 ## Installation
 Download and install the JKI State Machine using VI Package Manager
 
