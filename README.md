@@ -1,3 +1,7 @@
+# ACB mods
+These are mods that I use to make JKI State machines run faster and more concurrently, since I have have multiple loops running
+at the same time. Mods are marked with LabVIEW bookmarks.
+
 # JKI State Machine
 The easiest way to create powerful, maintainable VIs in LabVIEW™
 The JKI State Machine™ for LabVIEW™ is an easy-to-use yet powerful state machine template. It is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW™ experts.
