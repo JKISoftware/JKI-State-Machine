@@ -22,7 +22,9 @@
 			<Item Name="Test Utilities" Type="Folder">
 				<Item Name="SimulateButtonPress.vi" Type="VI" URL="../../tests/Test Utilities/SimulateButtonPress.vi"/>
 				<Item Name="Simulate Mouse Click at Position .vi" Type="VI" URL="../../tests/Test Utilities/Simulate Mouse Click at Position .vi"/>
+				<Item Name="Test VI Inlining.vi" Type="VI" URL="../../tests/Test Utilities/Test VI Inlining.vi"/>
 				<Item Name="Test VI Execution Priority.vi" Type="VI" URL="../../tests/Test Utilities/Test VI Execution Priority.vi"/>
+				<Item Name="JKI Clear All Errors -- JKI State Machine.vi" Type="VI" URL="../../tests/Test Utilities/JKI Clear All Errors -- JKI State Machine.vi"/>
 			</Item>
 			<Item Name="testStateMachineUtilities.lvclass" Type="LVClass" URL="../../tests/testStateMachineUtilities/testStateMachineUtilities.lvclass"/>
 		</Item>
@@ -37,8 +39,6 @@
 		<Item Name="VI Tree - JKI State Machine.vi" Type="VI" URL="../VI Tree - JKI State Machine.vi"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
-		<Item Name="Test VI Inlining.vi" Type="VI" URL="../../tests/Test Utilities/Test VI Inlining.vi"/>
-		<Item Name="JKI Clear All Errors -- JKI State Machine.vi" Type="VI" URL="../../tests/Test Utilities/JKI Clear All Errors -- JKI State Machine.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Multi-line String to Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Multi-line String to Array__ogtk.vi"/>
@@ -363,12 +363,10 @@
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
-				<Item Name="_TextTestResult.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_TextTestResult.llb/_TextTestResult.lvclass"/>
 			</Item>
 			<Item Name="USER32.DLL" Type="Document" URL="USER32.DLL">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Trim Whitespace - Inlined.vi" Type="VI" URL="../State Machine Support API/Support/Trim Whitespace - Inlined.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
