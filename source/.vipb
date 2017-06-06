@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2008-10-06 00:23:25" Modified_Date="2017-06-05 21:33:50" Creator="Michael Aivaliotis" Comments="" ID="f3a04132059fe0ae2b5d741ccf422ccf">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2008-10-06 00:23:25" Modified_Date="2017-06-05 22:05:18" Creator="Michael Aivaliotis" Comments="" ID="8a7304dee27d513364161131a7feba29">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>4.0.0.12</Library_Version>
+    <Library_Version>4.0.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -36,6 +36,8 @@
       <URL>http://jki.net/state-machine/</URL>
       <Release_Notes>- Major performance improvements to Support VIs ("Parse State Queue", "Add State(s) to Queue", and "Build State String with Arguments")
 - Support VIs are now configured for "Inline SubVIs into Calling VIs" and "Subroutine" priority to reduce memory footprint and execution time
+- Replaced deprecated FP.Open property with FP.State
+- Added new arguments to "UI: Front Panel State" (Open, Standard, Close, Closed, Hidden, Hide, Maximize, Maximized, Minimize, Minimized)
 - Special thanks to @mcduff14 and @drjdpowell for their performance improvement ideas and feedback on this thread https://github.com/JKISoftware/JKI-State-Machine/pull/3</Release_Notes>
     </Description>
     <Destinations>
