@@ -9,7 +9,7 @@ Download and install the JKI State Machine using VI Package Manager
 
 [Get JKI State Machine](http://vipm.jki.net/#!/package/jki_lib_state_machine)
 
-Tip: Use the [JKI State Machine Editor](https://github.com/JKISoftware/JKI-State-Machine-Editor)
+***Hot Tip***: Use the [JKI State Machine Editor](https://github.com/JKISoftware/JKI-State-Machine-Editor) to make working with the JKI State Machine a breeze.
 
 ## Getting Started
 1. [Watch Video Tutorials](https://www.youtube.com/playlist?list=PL8BF8A6F0F4739D46)
