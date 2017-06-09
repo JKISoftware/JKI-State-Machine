@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2008-10-06 00:23:25" Modified_Date="2017-06-07 07:06:25" Creator="Michael Aivaliotis" Comments="" ID="fcd9d4611b7faeb92da0b55ad3981252">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2008-10-06 00:23:25" Modified_Date="2017-06-09 15:16:38" Creator="Michael Aivaliotis" Comments="" ID="3dbc224e986845e22c705506ea1e2f4d">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>4.0.0.22</Library_Version>
+    <Library_Version>4.0.0.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -229,7 +229,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>EE63CF9CD21B2EA1E751F25EAA80A522</GUID>
+      <GUID>C85D00FD802EF12EAA8D0F3D7DC3CACC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -292,7 +292,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Build State String with Arguments.vi</Path>
         <VI_Title>Build State String with Arguments (JKISM)</VI_Title>
       </Items_Data>
-      <GUID>3335ADFF3485277B2D93C0528EF528BF</GUID>
+      <GUID>57B0F8F0220B26BC097F8A5743DC4CAC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
