@@ -32,4 +32,4 @@ JKI State Machine is an open source project maintained by [JKI](http://jki.net).
 ## License
 
 JKI State Machine is distributed under the open source three clause BSD license providing everyone right to use and distribute both souce code 
-and compiled versions of the JKI State Machine. See LICENSE file for details.
+and compiled versions of the JKI State Machine. See [LICENSE](https://github.com/JKISoftware/JKI-State-Machine/blob/master/LICENSE) file for details.
