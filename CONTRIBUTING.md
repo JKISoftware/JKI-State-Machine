@@ -1,1 +1,1 @@
-To get started, <a href="https://www.clahub.com/agreements/JKISoftware/JKI-State-Machine">sign the Contributor License Agreement</a>.
+To get started, <a href="https://cla-assistant.io/JKISoftware/JKI-State-Machine">sign the JKI Contributor License Agreement</a>.
