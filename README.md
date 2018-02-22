@@ -9,7 +9,7 @@ Download and install the JKI State Machine using VI Package Manager
 
 [Get JKI State Machine](http://vipm.jki.net/#!/package/jki_lib_state_machine)
 
-Tip: Use the [JKI State Machine Editor](https://github.com/JKISoftware/JKI-State-Machine-Editor)
+***Hot Tip***: Use the [JKI State Machine Editor](https://github.com/JKISoftware/JKI-State-Machine-Editor) to make working with the JKI State Machine a breeze.
 
 ## Getting Started
 1. [Watch Video Tutorials](https://www.youtube.com/playlist?list=PL8BF8A6F0F4739D46)
@@ -32,4 +32,4 @@ JKI State Machine is an open source project maintained by [JKI](http://jki.net).
 ## License
 
 JKI State Machine is distributed under the open source three clause BSD license providing everyone right to use and distribute both souce code 
-and compiled versions of the JKI State Machine. See LICENSE file for details.
+and compiled versions of the JKI State Machine. See [LICENSE](https://github.com/JKISoftware/JKI-State-Machine/blob/master/LICENSE) file for details.
