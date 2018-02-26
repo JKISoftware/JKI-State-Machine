@@ -1,3 +1,5 @@
+*Do you have JKI State Machine questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [JKI State Machine Community Forum](https://forums.jki.net/forum/46-jki-state-machine/).*
+
 # JKI State Machine
 The easiest way to create powerful, maintainable VIs in LabVIEW™
 The JKI State Machine™ for LabVIEW™ is an easy-to-use yet powerful state machine template. It is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW™ experts.
@@ -15,6 +17,9 @@ Download and install the JKI State Machine using VI Package Manager
 1. [Watch Video Tutorials](https://www.youtube.com/playlist?list=PL8BF8A6F0F4739D46)
 2. [Learn Best Practices](http://blog.jki.net/products/state-machine/jki-state-machine-best-practices/)
 
+## Support
+*Do you have JKI State Machine questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [JKI State Machine Community Forum](https://forums.jki.net/forum/46-jki-state-machine/).*
+
 ## Contributing
 
 1. Fork it!
@@ -23,7 +28,7 @@ Download and install the JKI State Machine using VI Package Manager
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-To contribute to JKI State Machine, you will need a 32-bit LabVIEW 2013 professional development environment. 
+To contribute to JKI State Machine, you will need a 32-bit **LabVIEW 2013** professional development environment.
 
 ## Credits
 
