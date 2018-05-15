@@ -9,7 +9,7 @@ The JKI State Machine™ for LabVIEW™ is an easy-to-use yet powerful state mac
 ## Installation
 Download and install the JKI State Machine using VI Package Manager
 
-[Get JKI State Machine](http://vipm.jki.net/#!/package/jki_lib_state_machine)
+[Get JKI State Machine](https://resources.jki.net/state-machine)
 
 ***Hot Tip***: Use the [JKI State Machine Editor](https://github.com/JKISoftware/JKI-State-Machine-Editor) to make working with the JKI State Machine a breeze.
 
