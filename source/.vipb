@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-08-23 08:10:38" Creator="Michael Aivaliotis" Comments="" ID="95ce3cedccb87a528aa81ec83677a3d1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-08-24 10:35:29" Creator="Michael Aivaliotis" Comments="" ID="82d86908cbe69b8725e66fe0c81180ec">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine_core</Package_File_Name>
-    <Library_Version>4.0.0.25</Library_Version>
+    <Library_Version>2018.0.0.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -21,7 +21,7 @@
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>..\build support\Pre-Build Custom Action - Run Tests.vi</Pre-Build_VI>
-      <Post-Build_VI/>
+      <Post-Build_VI>..\build support\JKI SM Core - Post-Build Custom Action.vi</Post-Build_VI>
       <Pre-Install_VI/>
       <Post-Install_VI/>
       <Pre-Uninstall_VI/>
@@ -234,7 +234,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>5CD222CE7943924A96C0E161DD76C96C</GUID>
+      <GUID>44E698036CACAADEFB3BD9B8807E3A69</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -297,7 +297,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Build State String with Arguments.vi</Path>
         <VI_Title>Build State String with Arguments (JKISM)</VI_Title>
       </Items_Data>
-      <GUID>051B20F9BD26AE32696BEC5F5D98AC7C</GUID>
+      <GUID>A38DBE1B1C92D4C0650A008EDFE553D5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
