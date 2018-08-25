@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-08-22 14:01:12" Creator="Michael Aivaliotis" Comments="" ID="1258a76ed9ff0bf39924b80e41c25a47">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-08-24 10:40:21" Creator="Michael Aivaliotis" Comments="" ID="b53326614d107ad001f24757f9dfc265">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>4.0.0.26</Library_Version>
+    <Library_Version>2018.0.0.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>JKI State Machine</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>jki_lib_state_machine_core &gt;=4.0</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jki_lib_state_machine_core &gt;=2018</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_state_machine_editor &gt;=2013</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
