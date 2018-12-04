@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-11-20 16:15:21" Creator="Michael Aivaliotis" Comments="" ID="7f297c85ac702a6ff9a871fe93b0638d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-12-03 19:23:35" Creator="Michael Aivaliotis" Comments="" ID="1216c9e052c28539dd167fdfaef7caed">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2018.0.0.36</Library_Version>
+    <Library_Version>2018.0.1.37</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -69,7 +69,10 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
 - Support VIs are now configured for "Inline SubVIs into Calling VIs" and "Subroutine" priority to reduce memory footprint and execution time
 - Replaced deprecated FP.Open property with FP.State
 - Added new arguments to "UI: Front Panel State" (Open, Standard, Close, Closed, Hidden, Hide, Maximize, Maximized, Minimize, Minimized)
-- Special thanks to @mcduff14 and @drjdpowell for their performance improvement ideas and feedback on this thread https://github.com/JKISoftware/JKI-State-Machine/pull/3</Release_Notes>
+- Special thanks to @mcduff14 and @drjdpowell for their performance improvement ideas and feedback on this thread https://github.com/JKISoftware/JKI-State-Machine/pull/3
+
+Fixes
+- Fixed Issue #9 (JKI SM Explorer VI keeps running when target VI FP is closed)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -266,7 +269,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>F94C2082BBAD101F3A7F99588E73FEC5</GUID>
+      <GUID>DF7065EC043A259BA68BFE58F07516AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -329,7 +332,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Build State String with Arguments.vi</Path>
         <VI_Title>Build State String with Arguments (JKISM)</VI_Title>
       </Items_Data>
-      <GUID>753E1D569258AD6AE4E20A587EF2C291</GUID>
+      <GUID>AF2F933B55EA0BF3AD9A0E2BBD8F0C9D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
