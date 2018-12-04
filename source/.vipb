@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-12-03 19:23:35" Creator="Michael Aivaliotis" Comments="" ID="1216c9e052c28539dd167fdfaef7caed">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-12-04 14:57:48" Creator="Michael Aivaliotis" Comments="" ID="916fa7ac54401c503b399a37d3d77aec">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2018.0.1.37</Library_Version>
+    <Library_Version>2018.0.2.38</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -72,7 +72,8 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
 - Special thanks to @mcduff14 and @drjdpowell for their performance improvement ideas and feedback on this thread https://github.com/JKISoftware/JKI-State-Machine/pull/3
 
 Fixes
-- Fixed Issue #9 (JKI SM Explorer VI keeps running when target VI FP is closed)</Release_Notes>
+- Fixed Issue #9 (JKI SM Explorer VI keeps running when target VI FP is closed)
+- Fixed Issue #10 (Editor Plug-ins that call "Term:Data Type" (as Variant) need a Request Deallocation to avoid LV crash)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -269,7 +270,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>DF7065EC043A259BA68BFE58F07516AE</GUID>
+      <GUID>5E625C8ABCB527808FB8FEA5BECB8E8A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -332,7 +333,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Build State String with Arguments.vi</Path>
         <VI_Title>Build State String with Arguments (JKISM)</VI_Title>
       </Items_Data>
-      <GUID>AF2F933B55EA0BF3AD9A0E2BBD8F0C9D</GUID>
+      <GUID>1E90900209DD8141E6C6ED08D35AB28D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
