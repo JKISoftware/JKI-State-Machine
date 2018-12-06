@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-12-04 14:57:48" Creator="Michael Aivaliotis" Comments="" ID="916fa7ac54401c503b399a37d3d77aec">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-12-05 15:14:20" Creator="Michael Aivaliotis" Comments="" ID="2f42f70bb7d802ebe740c674a1ed4704">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2018.0.2.38</Library_Version>
+    <Library_Version>2018.0.3.39</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -73,7 +73,8 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
 
 Fixes
 - Fixed Issue #9 (JKI SM Explorer VI keeps running when target VI FP is closed)
-- Fixed Issue #10 (Editor Plug-ins that call "Term:Data Type" (as Variant) need a Request Deallocation to avoid LV crash)</Release_Notes>
+- Fixed Issue #10 (Editor Plug-ins that call "Term:Data Type" (as Variant) need a Request Deallocation to avoid LV crash)
+- Fixed Issue with Find Data Accessors not always working well (failing to open and consuming CPU)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -270,7 +271,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>5E625C8ABCB527808FB8FEA5BECB8E8A</GUID>
+      <GUID>E0AE09E3071FFEE8C3EA1DC32997A919</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -333,7 +334,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Build State String with Arguments.vi</Path>
         <VI_Title>Build State String with Arguments (JKISM)</VI_Title>
       </Items_Data>
-      <GUID>1E90900209DD8141E6C6ED08D35AB28D</GUID>
+      <GUID>28FA58A98DBEC8E7B105969864F2A9BC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
