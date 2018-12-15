@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-12-06 10:27:09" Creator="Michael Aivaliotis" Comments="" ID="b896b764cda2445fcdaa7bbfcd7d4efa">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2018-12-15 14:31:08" Creator="Michael Aivaliotis" Comments="" ID="aad04ab64e5975fe414fc50a4e683b9a">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2018.0.4.40</Library_Version>
+    <Library_Version>2018.0.5.42</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -75,7 +75,8 @@ Fixes
 - Fixed Issue #9 (JKI SM Explorer VI keeps running when target VI FP is closed)
 - Fixed Issue #10 (Editor Plug-ins that call "Term:Data Type" (as Variant) need a Request Deallocation to avoid LV crash)
 - Fixed Issue with Find Data Accessors not always working well (failing to open and consuming CPU)
-- Fkixed issue (SM Editor #79) where SM Explorer window does not disappear occasionally</Release_Notes>
+- Fixed Issue (SM Editor #79) where SM Explorer window does not disappear occasionally
+- Fixed Issue (SM Editor #86) Can't open JKI SM Explorer for multiple JKI SM's on same BD</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -272,7 +273,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>7979DE084937CC01E88078DCFFD37E45</GUID>
+      <GUID>0F2E5D40DFCDB7ABA3667F267B51ADA9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -335,7 +336,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Build State String with Arguments.vi</Path>
         <VI_Title>Build State String with Arguments (JKISM)</VI_Title>
       </Items_Data>
-      <GUID>F4922939FAFB12023E935532A69B7293</GUID>
+      <GUID>3FE901221C5BEF4816AD5D7FB6FD599C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
