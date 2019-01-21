@@ -19,3 +19,6 @@
 #Built VI Packages
 *.vip
 .DS_Store
+
+# Don't ignore VIP files in build support folder (! is an exclusion)
+!/build support/*.vip
