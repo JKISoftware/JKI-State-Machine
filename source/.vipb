@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2020-04-10 14:07:36" Creator="Michael Aivaliotis" Comments="" ID="f592143550fa255c68bd5823da2b9d85">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2020-04-12 16:11:10" Creator="Michael Aivaliotis" Comments="" ID="36c2136d9d950713f7fa6c48c9c7d634">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2020.0.0.51</Library_Version>
+    <Library_Version>2020.0.0.52</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -63,7 +63,9 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (C) 2005-2020, JKI</Copyright>
       <Packager>JKI</Packager>
       <URL>http://jki.net/state-machine/</URL>
-      <Release_Notes>- #21 New Support VI Conditional State String allows conditional (Boolean) enqueuing of states
+      <Release_Notes>- New "Check Events" input to Parse State Queue causes periodic checks of the "Event Structure" ("Idle") state
+- Call "Event Structure" (and "Idle") with Timeout argument to override Timeout on that call
+- #21 New Support VI Conditional State String allows conditional (Boolean) enqueuing of states
 - #21 New Support VI "Periodic State String" allows periodic (time triggered) enqueing of states
 - #11 Error Handler is now passed the previous state string (and raw arguments+comments) that caused the error
 - #20 JKI SM Template's "OK" button renamed to "Cancel" and key binding changed from &lt;Enter&gt; to &lt;Escape&gt;
@@ -264,7 +266,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>9FFE9AD3255FE838FA82DA2A3CD9F6EE</GUID>
+      <GUID>11FB03E9F5741C670549F1DF592B28B3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -355,7 +357,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Periodic State String.vi</Path>
         <VI_Title>Periodic State String (JKISM)</VI_Title>
       </Items_Data>
-      <GUID>1A5A09B76B2672C53F338F7CD9434136</GUID>
+      <GUID>7B44D631BC4E5F027998D05B46355153</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
