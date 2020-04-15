@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2020-04-12 16:11:10" Creator="Michael Aivaliotis" Comments="" ID="36c2136d9d950713f7fa6c48c9c7d634">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2020-04-14 21:23:51" Creator="Michael Aivaliotis" Comments="" ID="df74ebce9691d8564e55b073cd2e905f">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
     <Library_Version>2020.0.0.52</Library_Version>
@@ -63,7 +63,8 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (C) 2005-2020, JKI</Copyright>
       <Packager>JKI</Packager>
       <URL>http://jki.net/state-machine/</URL>
-      <Release_Notes>- New "Check Events" input to Parse State Queue causes periodic checks of the "Event Structure" ("Idle") state
+      <Release_Notes>- New "Wait" state allows setting a "Wait &gt;&gt; 1000" timer (in milliseconds)
+- New "Check Events" input to Parse State Queue causes periodic checks of the "Event Structure" ("Idle") state
 - Call "Event Structure" (and "Idle") with Timeout argument to override Timeout on that call
 - #21 New Support VI Conditional State String allows conditional (Boolean) enqueuing of states
 - #21 New Support VI "Periodic State String" allows periodic (time triggered) enqueing of states
@@ -266,7 +267,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>11FB03E9F5741C670549F1DF592B28B3</GUID>
+      <GUID>BDFA63E08FD2702C8F9FD89BFAC1CA28</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -357,7 +358,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Periodic State String.vi</Path>
         <VI_Title>Periodic State String (JKISM)</VI_Title>
       </Items_Data>
-      <GUID>7B44D631BC4E5F027998D05B46355153</GUID>
+      <GUID>53066B75E302EF4D395C81EBA5AFFCEC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -43,6 +43,9 @@
 			<Item Name="Periodic State String.vi" Type="VI" URL="../State Machine Support API/Periodic State String.vi"/>
 			<Item Name="Wait State Timer.vi" Type="VI" URL="../State Machine Support API/Wait State Timer.vi"/>
 		</Item>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Non-Blocking Wait with Abort -- JKI SM Example.vi" Type="VI" URL="../../examples/Non-Blocking Wait with Abort/Non-Blocking Wait with Abort -- JKI SM Example.vi"/>
+		</Item>
 		<Item Name="VI Tree - JKI State Machine.vi" Type="VI" URL="../VI Tree - JKI State Machine.vi"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
