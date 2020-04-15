@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2020-04-14 21:23:51" Creator="Michael Aivaliotis" Comments="" ID="df74ebce9691d8564e55b073cd2e905f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2020-04-14 21:32:16" Creator="Michael Aivaliotis" Comments="" ID="16265c1a7fbdfae2a277191d2e34c87c">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2020.0.0.52</Library_Version>
+    <Library_Version>2020.0.0.53</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -267,7 +267,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>BDFA63E08FD2702C8F9FD89BFAC1CA28</GUID>
+      <GUID>C1E6067F37114532FB7E68EBECCABD98</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -358,7 +358,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Periodic State String.vi</Path>
         <VI_Title>Periodic State String (JKISM)</VI_Title>
       </Items_Data>
-      <GUID>53066B75E302EF4D395C81EBA5AFFCEC</GUID>
+      <GUID>7AFFBF8A405D7111174E67FB1BADCE3B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
