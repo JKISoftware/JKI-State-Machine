@@ -1,3 +1,5 @@
+[![Image](https://www.vipm.io/package/jki_lib_state_machine/badge.svg?metric=installs)](https://www.vipm.io/package/jki_lib_state_machine/) [![Image](https://www.vipm.io/package/jki_lib_state_machine/badge.svg?metric=stars)](https://www.vipm.io/package/jki_lib_state_machine/)
+
 *Do you have JKI State Machine questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [JKI State Machine Community Forum](https://forums.jki.net/forum/46-jki-state-machine/).*
 
 # JKI State Machine
