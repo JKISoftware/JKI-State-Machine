@@ -18,7 +18,7 @@ Download and install the JKI State Machine using VI Package Manager
 ## Getting Started
 1. [Watch Video Tutorials](https://www.youtube.com/playlist?list=PL8BF8A6F0F4739D46)
 2. [Learn Best Practices](http://blog.jki.net/products/state-machine/jki-state-machine-best-practices/)
-3. [Take the JKI State Machine Basics Course from JKI](https://resources.jki.net/jki-state-machine-basics-course-lp)
+3. [Take the JKI State Machine Basics Course from JKI](https://www.jki.net/training/jki-state-machine)
 
 ## Support
 *Do you have JKI State Machine questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [JKI State Machine Community Forum](https://forums.jki.net/forum/46-jki-state-machine/).*
