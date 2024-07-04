@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2020-04-10 14:07:36" Creator="Michael Aivaliotis" Comments="" ID="f592143550fa255c68bd5823da2b9d85">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-07-04 12:02:15" Creator="Michael Aivaliotis" Comments="" ID="65bc62f455953d043fb2eb4505153370">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2020.0.0.51</Library_Version>
+    <Library_Version>2024.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -60,14 +60,14 @@ Using the Right-click menu on the JKI SM Parts for increased productivity:
 - Right-click on a bundle or unbundle by name and choose Find Data Accessors to find all accessors of the data.
 
 Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launching off point for the JKI SM Editor.</Description>
-      <Copyright>Copyright (C) 2005-2020, JKI</Copyright>
+      <Copyright>Copyright (C) 2005-2024, JKI</Copyright>
       <Packager>JKI</Packager>
       <URL>http://jki.net/state-machine/</URL>
-      <Release_Notes>- #21 New Support VI Conditional State String allows conditional (Boolean) enqueuing of states
-- #21 New Support VI "Periodic State String" allows periodic (time triggered) enqueing of states
-- #11 Error Handler is now passed the previous state string (and raw arguments+comments) that caused the error
-- #20 JKI SM Template's "OK" button renamed to "Cancel" and key binding changed from &lt;Enter&gt; to &lt;Escape&gt;
-- JKI SM Editor #98 Duplicating a category frame in the JKI SM Editor now inserts it *after* all states in the duplicated category (instead of immediately after and absorbing all the states)</Release_Notes>
+      <Release_Notes>- #21 New Support VI -&gt; "Select State(s)" allows conditional (Boolean or error) enqueuing of states
+- #11 JKI SM Template  -&gt; Error Handler is now appends the  previous state string (and raw arguments+comments) to the error message
+- #30 JKI SM Template  -&gt; Added UI: Cleanup state (called by Macro: Exit)
+- #29 JKI SM Template -&gt;  Clears warnings in the Idle state
+- #17 JKI SM Template -&gt;  fixed typo in UI: Initialize state comment</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -146,9 +146,6 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>__jki_lib_state_machine</Namespace>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>Thumbs.db</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -205,6 +202,7 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <close_labview_before_install>true</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
@@ -264,7 +262,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>9FFE9AD3255FE838FA82DA2A3CD9F6EE</GUID>
+      <GUID>65D8EF89FCD439BF6BD9FF31C2151013</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -355,7 +353,21 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Periodic State String.vi</Path>
         <VI_Title>Periodic State String (JKISM)</VI_Title>
       </Items_Data>
-      <GUID>1A5A09B76B2672C53F338F7CD9434136</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Select State(s)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>State Machine Support API\Select State(s).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>9BA225437BC888B739B97246B6E95BE3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
