@@ -41,6 +41,7 @@
 			<Item Name="Parse State Queue.vi" Type="VI" URL="../State Machine Support API/Parse State Queue.vi"/>
 			<Item Name="Conditional State String.vi" Type="VI" URL="../State Machine Support API/Conditional State String.vi"/>
 			<Item Name="Periodic State String.vi" Type="VI" URL="../State Machine Support API/Periodic State String.vi"/>
+			<Item Name="Append Error Details.vi" Type="VI" URL="../State Machine Support API/Append Error Details.vi"/>
 			<Item Name="Select State(s).vi" Type="VI" URL="../State Machine Support API/Select State(s).vi"/>
 			<Item Name="Select State(s)_bool.vi" Type="VI" URL="../State Machine Support API/Select State(s)_bool.vi"/>
 			<Item Name="Select State(s)_err.vi" Type="VI" URL="../State Machine Support API/Select State(s)_err.vi"/>
@@ -48,6 +49,7 @@
 		<Item Name="VI Tree - JKI State Machine.vi" Type="VI" URL="../VI Tree - JKI State Machine.vi"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
+		<Item Name="Clear Warning.vi" Type="VI" URL="../State Machine Support API/Clear Warning.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Multi-line String to Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Multi-line String to Array__ogtk.vi"/>
