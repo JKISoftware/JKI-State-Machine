@@ -41,6 +41,9 @@
 			<Item Name="Parse State Queue.vi" Type="VI" URL="../State Machine Support API/Parse State Queue.vi"/>
 			<Item Name="Conditional State String.vi" Type="VI" URL="../State Machine Support API/Conditional State String.vi"/>
 			<Item Name="Periodic State String.vi" Type="VI" URL="../State Machine Support API/Periodic State String.vi"/>
+			<Item Name="Select State(s).vi" Type="VI" URL="../State Machine Support API/Select State(s).vi"/>
+			<Item Name="Select State(s)_bool.vi" Type="VI" URL="../State Machine Support API/Select State(s)_bool.vi"/>
+			<Item Name="Select State(s)_err.vi" Type="VI" URL="../State Machine Support API/Select State(s)_err.vi"/>
 		</Item>
 		<Item Name="VI Tree - JKI State Machine.vi" Type="VI" URL="../VI Tree - JKI State Machine.vi"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
