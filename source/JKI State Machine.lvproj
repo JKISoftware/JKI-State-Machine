@@ -15,6 +15,7 @@
 			<Item Name="Error-State" Type="Folder">
 				<Item Name="Random String.vi" Type="VI" URL="../../tests/Error-State/Random String.vi"/>
 				<Item Name="Test State to Error Handler.vi" Type="VI" URL="../../tests/Error-State/Test State to Error Handler.vi"/>
+				<Item Name="Test Warning to Error Handler.vi" Type="VI" URL="../../tests/Error-State/Test Warning to Error Handler.vi"/>
 			</Item>
 			<Item Name="Performance Tests" Type="Folder">
 				<Item Name="Add Only Empty States to Queue Performance Test.vi" Type="VI" URL="../../tests/Performance/Add Only Empty States to Queue Performance Test.vi"/>
@@ -38,6 +39,7 @@
 		<Item Name="State Machine Support API" Type="Folder">
 			<Item Name="Build State String with Arguments.vi" Type="VI" URL="../State Machine Support API/Build State String with Arguments.vi"/>
 			<Item Name="Add State(s) to Queue.vi" Type="VI" URL="../State Machine Support API/Add State(s) to Queue.vi"/>
+			<Item Name="Parse State Queue_2024.vi" Type="VI" URL="../State Machine Support API/Parse State Queue_2024.vi"/>
 			<Item Name="Parse State Queue.vi" Type="VI" URL="../State Machine Support API/Parse State Queue.vi"/>
 			<Item Name="Conditional State String.vi" Type="VI" URL="../State Machine Support API/Conditional State String.vi"/>
 			<Item Name="Periodic State String.vi" Type="VI" URL="../State Machine Support API/Periodic State String.vi"/>
@@ -49,7 +51,6 @@
 		<Item Name="VI Tree - JKI State Machine.vi" Type="VI" URL="../VI Tree - JKI State Machine.vi"/>
 		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
-		<Item Name="Clear Warning.vi" Type="VI" URL="../State Machine Support API/Clear Warning.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Multi-line String to Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Multi-line String to Array__ogtk.vi"/>
