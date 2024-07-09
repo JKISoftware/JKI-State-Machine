@@ -665,6 +665,7 @@
 				<Item Name="TREE_Tree Collapse__jki_lib_tree_control -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/TREE_Tree Collapse__jki_lib_tree_control -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="TREE_Set Node Open or Close__jki_lib_tree_control -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/TREE_Set Node Open or Close__jki_lib_tree_control -- VI Tester__jki_vi_tester.vi"/>
 				<Item Name="TREE_Tree Expand__jki_lib_tree_control -- VI Tester__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/TREE_Tree Expand__jki_lib_tree_control -- VI Tester__jki_vi_tester.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 			<Item Name="USER32.DLL" Type="Document" URL="USER32.DLL">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
