@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-07-04 13:37:40" Creator="Michael Aivaliotis" Comments="" ID="0325d5e2feb6caa87ccf47330080358f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-07-24 09:56:57" Creator="Michael Aivaliotis" Comments="" ID="d9d2d89da320ccb90e1e71dc3ab34812">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
     <Library_Version>2024.0.0.1</Library_Version>
@@ -64,11 +64,15 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (C) 2005-2024, JKI</Copyright>
       <Packager>JKI</Packager>
       <URL>http://jki.net/state-machine/</URL>
-      <Release_Notes>- #21 New Support VI -&gt; "Select State(s)" allows conditional (Boolean or error) enqueuing of states
+      <Release_Notes>- #20 JKI SM Template's "OK" button renamed to "Cancel" and key binding changed from `Enter` to `Escape`
+- #21 New Support VI -&gt; "Select State(s)" allows conditional (Boolean or error) enqueuing of states
+- #21 New Support VI Conditional State String allows conditional (Boolean) enqueuing of states
+- #21 New Support VI "Periodic State String" allows periodic (time triggered) enqueing of states
 - #11 JKI SM Template  -&gt; Error Handler is now appends the  previous state string (and raw arguments+comments) to the error message
 - #30 JKI SM Template  -&gt; Added UI: Cleanup state (called by Macro: Exit)
 - #29 JKI SM Template -&gt;  Clears warnings in the Idle state
-- #17 JKI SM Template -&gt;  fixed typo in UI: Initialize state comment</Release_Notes>
+- #17 JKI SM Template -&gt;  fixed typo in UI: Initialize state comment
+- JKI SM Editor #98 Duplicating a category frame in the JKI SM Editor now inserts it *after* all states in the duplicated category (instead of immediately after and absorbing all the states)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -263,7 +267,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>65D8EF89FCD439BF6BD9FF31C2151013</GUID>
+      <GUID>728F20D0EB9562E9718425B2C391E9E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -297,20 +301,6 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Icon>00000000</Icon>
         <Path>State Machine Support API\Add State(s) to Queue.vi</Path>
         <VI_Title>Add State(s) to Queue (JKISM)</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse State Queue</NameSub_Menu_Name>
-        <Short_Name>Parse State Queue (JKISM)</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>State Machine Support API\Parse State Queue.vi</Path>
-        <VI_Title>Parse State Queue (JKISM)</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -368,7 +358,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Select State(s).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9BA225437BC888B739B97246B6E95BE3</GUID>
+      <GUID>FF2AB4FD1C9D50B2D53B62EF70071D48</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
