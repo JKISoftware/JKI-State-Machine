@@ -1,0 +1,20 @@
+["vipm::oglib_error"]
+state = "ok (no issues)"
+is-used = true
+installed = "6.0.0.26"
+required = "6.0.0.26"
+ever-used = true
+
+["vipm::oglib_numeric"]
+state = "ok (no issues)"
+is-used = true
+installed = "6.0.0.9"
+required = "6.0.0.9"
+ever-used = true
+
+["vipm::oglib_string"]
+state = "ok (no issues)"
+is-used = true
+installed = "6.0.2.35"
+required = "6.0.2.35"
+ever-used = true
