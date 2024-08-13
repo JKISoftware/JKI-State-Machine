@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-08-06 11:01:34" Creator="Michael Aivaliotis" Comments="" ID="b9b0072a97fa5c758831088c4ff2fc5c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-08-13 17:26:08" Creator="Michael Aivaliotis" Comments="" ID="c980c9c21ce1793a10b8796ac196c699">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2024.0.0.4</Library_Version>
+    <Library_Version>2024.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -62,15 +62,15 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (C) 2005-2024, JKI</Copyright>
       <Packager>JKI</Packager>
       <URL>http://jki.net/state-machine/</URL>
-      <Release_Notes>- #20 JKI SM Template's "OK" button renamed to "Cancel" and key binding changed from `Enter` to `Escape`
-- #21 New Support VI -&gt; "Select State(s)" allows conditional (Boolean or error) enqueuing of states
-- #21 New Support VI Conditional State String allows conditional (Boolean) enqueuing of states
-- #21 New Support VI "Periodic State String" allows periodic (time triggered) enqueing of states
-- #11 JKI SM Template  -&gt; Error Handler is now appends the  previous state string (and raw arguments+comments) to the error message
-- #30 JKI SM Template  -&gt; Added UI: Cleanup state (called by Macro: Exit)
-- #29 JKI SM Template -&gt;  Clears warnings in the Idle state
-- #17 JKI SM Template -&gt;  fixed typo in UI: Initialize state comment
-- JKI SM Editor #98 Duplicating a category frame in the JKI SM Editor now inserts it *after* all states in the duplicated category (instead of immediately after and absorbing all the states)</Release_Notes>
+      <Release_Notes>What's New in JKI State Machine 2024
+
+This is a major new release with a focus on a few significant improvements:
+
+1. New State Enqueuing VIs:, to make it easier to conditionally enqueue states based on boolean logic and periodic timing (in a way that produces readable code).
+2. Improved Error Handling: to include information about the state where the error occurred as well as clear (or handling) "warnings" (non-zero `error code` but `status` is False).
+3. Upgrading source code to LV2020: to make it easier for community members to contribute and for the development team to take advantage of newer LabVIEW features.
+
+There are also some other nice improvements to the template and misc fixes.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -265,7 +265,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>FEC5E733E321F07E750FB23B29586AFD</GUID>
+      <GUID>133A03744D086BC85E6C488141DCEED3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -356,7 +356,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Select State(s).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E6644A0C9A910A495F15F536A49CDD1</GUID>
+      <GUID>B39C3FCC51DBCB3C18FA70BBC4186613</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
