@@ -25,7 +25,7 @@ Better error handling is always nice. So, we've added a couple nice improvements
 
 ### Misc Template Changes
 
-- [#20](https://github.com/JKISoftware/JKI-State-Machine/issues/#20) CHANGED the JKI SM Template's **OK** button: renamed it to **Cancel** and changed key binding from `Enter` to `Escape`, since many users were finding that the `Enter` key binding was problematic.
+- [#20](https://github.com/JKISoftware/JKI-State-Machine/issues/#20) CHANGED the JKI SM Template's **OK** button: renamed it to **Exit** and removed key binding since many users were finding that the `Enter` key binding was problematic.
 
 - [#30](https://github.com/JKISoftware/JKI-State-Machine/issues/#30) NEW state `UI: Cleanup` state (which is called by `Macro: Exit`) provides a place to put code that resets the user interface to a default state and helps avoid saving unwanted state data in the UI (such as Graph/Chart data, Multi-Column Listbox strings).
 
