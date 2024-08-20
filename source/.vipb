@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-08-13 17:26:08" Creator="Michael Aivaliotis" Comments="" ID="c980c9c21ce1793a10b8796ac196c699">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-08-20 12:41:06" Creator="Michael Aivaliotis" Comments="" ID="9fb8aa8dc7498d2d47317a495287ca15">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2024.0.0.5</Library_Version>
+    <Library_Version>2024.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -34,7 +34,7 @@
     <VI_Package_Configuration_File>.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>JKI State Machine</One_Line_Description_Summary>
-      <Description>The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts. We encourage you to post any questions or comments to the JKI Software Forums. There you will find an active community of JKI software users, as well as JKI team members.
+      <Description>The JKI State Machineï¿½ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts. We encourage you to post any questions or comments to the JKI Software Forums. There you will find an active community of JKI software users, as well as JKI team members.
 
 How to use:
 
@@ -48,7 +48,8 @@ Use QuickDrop to place a JKI State Machine on the block diagram
 Launch the JKI State Machine Explorer by either
 A) Right-click on a State String, Case Structure, or Event Structure to launch JKI SM Editor
 B) Press Control+Space then Control+J when you're on the block diagram of a VI containing a JKI SM
-
+
+
 Using the Right-click menu on the JKI SM Parts for increased productivity:
 - Select an item in the tree to make that frame visible
 - Click back and forward to navigate the history
@@ -210,7 +211,7 @@ There are also some other nice improvements to the template and misc fixes.</Rel
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
       <Text_to_Add>
-JKI State Machine™ {version_number}
+JKI State Machineï¿½ {version_number}
 http://jki.net/state-machine/
 {copyright} &lt;info@jki.net&gt;
 ALL RIGHTS RESERVED</Text_to_Add>
@@ -265,7 +266,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>133A03744D086BC85E6C488141DCEED3</GUID>
+      <GUID>EE3C06E6EACE4A22B57FF85E6DAB8F43</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -356,7 +357,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Select State(s).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B39C3FCC51DBCB3C18FA70BBC4186613</GUID>
+      <GUID>2B2CA20879611CC45C01DEDF0E02D1DB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
