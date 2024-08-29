@@ -1,12 +1,13 @@
 {
-    "image": "ghcr.io/vipm-io/actions-runner-labview-2024-linux:dev",
-    // "dockerFile": "Dockerfile",
-    // "context": "..",
+    // "image": "ghcr.io/vipm-io/actions-runner-labview-2024-linux:dev",
+    "dockerFile": "Dockerfile",
+    "context": "..",
     "remoteUser": "labview",
     "remoteEnv": {
-        "USER": "labview"
+        "USER": "labview",
+		"DISPLAY": ":20"
     },
-    "postStartCommand": "nohup bash -c 'init_labview && labview &' >/dev/null 2>&1",
+    "postStartCommand": "nohup bash -c 'init_labview >/dev/null 2>&1 && labview &' >/dev/null 2>&1",
     "forwardPorts": [6080],
 	"customizations": {
 		"vscode": {
