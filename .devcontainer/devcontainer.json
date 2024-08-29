@@ -1,0 +1,25 @@
+{
+    "image": "ghcr.io/vipm-io/actions-runner-labview-2024-linux:dev",
+    // "dockerFile": "Dockerfile",
+    // "context": "..",
+    "remoteUser": "labview",
+    "remoteEnv": {
+        "USER": "labview"
+    },
+    "postStartCommand": "nohup bash -c 'init_labview && labview &' >/dev/null 2>&1",
+    "forwardPorts": [6080],
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"remote.autoForwardPorts": false,
+				"remote.portsAttributes": {
+					"6080": {
+						"label": "desktop",
+						"onAutoForward": "notify"
+					}
+				},
+				"remote.otherPortsAttributes": {"onAutoForward": "silent"}
+			}
+		}
+	}
+}
