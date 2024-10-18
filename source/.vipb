@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-08-29 17:06:15" Creator="Michael Aivaliotis" Comments="" ID="0ad163bb1a362fcc40294492c6708ab1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-10-18 17:21:55" Creator="Michael Aivaliotis" Comments="" ID="482409df580fc3ee61d6ec188f2de76a">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2024.0.0.7</Library_Version>
+    <Library_Version>2024.0.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -71,7 +71,9 @@ This is a major new release with a focus on a few significant improvements:
 2. Improved Error Handling: to include information about the state where the error occurred as well as clear (or handling) "warnings" (non-zero `error code` but `status` is False).
 3. Upgrading source code to LV2020: to make it easier for community members to contribute and for the development team to take advantage of newer LabVIEW features.
 
-There are also some other nice improvements to the template and misc fixes.</Release_Notes>
+There are also some other nice improvements to the template and misc fixes.
+
+Updates to JKI State Machine Editor</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -211,7 +213,7 @@ There are also some other nice improvements to the template and misc fixes.</Rel
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
       <Text_to_Add>
-JKI State Machine� {version_number}
+JKI State Machine {version_number}
 http://jki.net/state-machine/
 {copyright} &lt;info@jki.net&gt;
 ALL RIGHTS RESERVED</Text_to_Add>
@@ -266,7 +268,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>F34D1DE9D8D7355C734F1219A9E2EE3E</GUID>
+      <GUID>330B2AB35D00EAB9D22DA5470A13A332</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -357,7 +359,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Select State(s).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2CBB687BD701997FCA5358AF673946E</GUID>
+      <GUID>75039AF4AD2C2DF0755075EBE6250766</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
