@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-10-18 17:21:55" Creator="Michael Aivaliotis" Comments="" ID="482409df580fc3ee61d6ec188f2de76a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2024-10-22 17:43:49" Creator="Michael Aivaliotis" Comments="" ID="b55cf927f2f1f38d10ca1ff9e1ec6e74">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2024.0.1.4</Library_Version>
+    <Library_Version>2024.0.1.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -34,7 +34,7 @@
     <VI_Package_Configuration_File>.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>JKI State Machine</One_Line_Description_Summary>
-      <Description>The JKI State Machine� is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts. We encourage you to post any questions or comments to the JKI Software Forums. There you will find an active community of JKI software users, as well as JKI team members.
+      <Description>The JKI State Machine is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts. We encourage you to post any questions or comments to the JKI Software Forums. There you will find an active community of JKI software users, as well as JKI team members.
 
 How to use:
 
@@ -73,7 +73,10 @@ This is a major new release with a focus on a few significant improvements:
 
 There are also some other nice improvements to the template and misc fixes.
 
-Updates to JKI State Machine Editor</Release_Notes>
+Updates to JKI State Machine Editor.
+
+Known Issues:
+In LabVIEW 2024, changes to how right-click menu references are handled have caused the JKI State Machine Helper utilities to be inaccessible via the right-click menu. However, you can still access the JKI State Machine Helper using the Ctrl+J Quick Drop shortcut. JKI is working with NI to restore full support as soon as possible. Other LabVIEW versions remain unaffected.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -268,7 +271,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>330B2AB35D00EAB9D22DA5470A13A332</GUID>
+      <GUID>5B7C15A199AF188CCEFBD0B67E946A39</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -359,7 +362,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Select State(s).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75039AF4AD2C2DF0755075EBE6250766</GUID>
+      <GUID>DAD6D9E71ECF78D5A4BBE9A088216609</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
