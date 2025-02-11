@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2025-02-06 11:31:11" Creator="Michael Aivaliotis" Comments="" ID="4566cd325c9a5fee97df4329b45b953d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2008-10-06 00:23:25" Modified_Date="2025-02-11 09:42:39" Creator="Michael Aivaliotis" Comments="" ID="fa9616fb823d8316fb6856673dc56bdc">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_state_machine</Package_File_Name>
-    <Library_Version>2024.0.2.18</Library_Version>
+    <Library_Version>2024.0.3.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -269,7 +269,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path/>
         <VI_Title>Support for State Machine</VI_Title>
       </Items_Data>
-      <GUID>CD7A20EFB6572201E111B443B2630B0A</GUID>
+      <GUID>ACF357AA02F16C79771B926243B6C78F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -360,7 +360,7 @@ ALL RIGHTS RESERVED</Text_to_Add>
         <Path>State Machine Support API\Select State(s).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>99DC9C35C0808B5E5CF9F138F437541D</GUID>
+      <GUID>F1742A71008B93C9D62F76AC53F0AED6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
